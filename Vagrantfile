@@ -19,6 +19,7 @@ Vagrant.configure(2) do |config|
     sudo apt-get update
     sudo apt-get install -y build-essential libssl-dev libffi-dev python-dev python3-dev libxml2-dev libxslt1-dev git
     sudo apt-get install -y python-pip python3-pip
-    pip install virtualenv scrapy
+    pip install virtualenv 
+    git clone https://github.com/PDX-Capstone-Team-C/scrapy.git 
   SHELL
 end
